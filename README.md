@@ -3,6 +3,9 @@
 Search users and get the information about the user and his/her repos  
 This project was generated with [Angular CLI] version 6.2.1.
 
+## Project Link
+[http://www.vugar.me/projects/angular/githubfinder/]
+
 ## Use this project
 
 1. Clone this git repo --> `git clone https://github.com/VugarAhmadov/githubFinder.git`
