@@ -4,7 +4,7 @@ Search users and get the information about the user and his/her repos
 This project was generated with [Angular CLI] version 6.2.1.
 
 ## Project Link
-[http://www.vugar.me/projects/angular/githubfinder/]
+http://www.vugar.me/projects/angular/githubfinder/
 
 ## Use this project
 
