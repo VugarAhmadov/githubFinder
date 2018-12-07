@@ -2,15 +2,15 @@
 ==========  CONTAINER  ===========
 ================================*/
 .container {
-	width: 900px;
+  width: 900px;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
 @media screen and (max-width: 914px) {
   .container {
-		width: 100%;
-	}
+    width: 100%;
+  }
 }
 /*================================
 ========  END CONTAINER  =========
@@ -18,7 +18,7 @@
 
 
 /*================================
-==========  GRID  ===========
+============  GRID  ==============
 ================================*/
 .p-grid {
   display: -webkit-box;
