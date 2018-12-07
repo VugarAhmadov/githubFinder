@@ -15,7 +15,8 @@
       <div class="search__autocomplete ui-fluid">
         <p-autoComplete [(ngModel)]="username" [suggestions]="users" (completeMethod)="searchUser($event)"
                   field="login" [size]="30" placeholder="Github username" [minLength]="1"
-                  (onSelect)="selectedUser(username.login)">
+                  (onSelect)="selectedUser(username.login)"
+                  emptyMessage="Couldn't find any user!">
           <ng-template let-foundedUser pTemplate="selectedUser">
             <div class="search__autocomplete--results">
               <img [src]="foundedUser.avatar_url"/>
