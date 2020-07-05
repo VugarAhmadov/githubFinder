@@ -11,8 +11,8 @@ import { Repo } from '../models/Repo';
   providedIn: 'root'
 })
 export class GithubService {
-  private client_id = '35d48130fbf4bdf57af1';
-  private client_secret = '4c50cdc46599aead0751ca7118eb4fc34de64667';
+  private client_id = 'test';
+  private client_secret = 'test';
 
   constructor(private httpClient: HttpClient) { }
 
